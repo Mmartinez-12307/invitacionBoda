@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invitación de Boda</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Great+Vibes&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
@@ -16,7 +18,8 @@
         }
 
         section {
-            min-height: 100vh; /* mejor para móvil */
+            min-height: 100vh;
+            /* mejor para móvil */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,8 +30,8 @@
 
         /* HERO */
         .hero {
-            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-            url('https://images.unsplash.com/photo-1519741497674-611481863552');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('https://images.unsplash.com/photo-1519741497674-611481863552');
             background-size: cover;
             background-position: center;
             color: white;
@@ -54,8 +57,15 @@
 
         /* Animación suave */
         @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(8px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(8px);
+            }
         }
 
         /* SECCIONES */
@@ -84,7 +94,7 @@
             border-radius: 15px;
             width: 90%;
             max-width: 350px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
         .section-dark .card {
@@ -113,40 +123,38 @@
                 font-size: 16px;
             }
         }
-
     </style>
 </head>
+
 <body>
 
     <!-- PORTADA -->
     <section class="hero">
         <div class="names">Elizabeth & Elizardo</div>
-        <div class="date">26 de Abril de 2026</div>
+        <div class="date">11 de Abril de 2026</div>
         <div class="scroll">Desliza ↓</div>
     </section>
 
-     <section class="section-light">
+    <!-- CONFIRMACION -->
+    <section class="section-light">
         <h2>Confirma tu Asistencia</h2>
         <p>Tu presencia hará este día aún más especial</p>
         <a href="https://forms.gle/nfx21b43Hq2DDGCZ6" target="_blank">
             <button class="btn">Confirmar</button>
         </a>
-
+    </section>
     <!-- EVENTO -->
     <section class="section-dark">
         <h2>Detalles del Evento</h2>
         <div class="card">
             <p><strong>Ceremonia:</strong> 11:00 AM</p>
-            <p><strong>Lugar:</strong> Calle Antigua a Zacatecoluca, Frente a Cementerio Municipal de Santo Tómas </p>
+            <p><strong>Lugar:</strong> Frente a Cementerio Municipal de Zacatecoluca de Santo Tómas</p>
             <a href="https://maps.app.goo.gl/5QSkhHqjghzhMopK7" target="_blank">
-    <button class="btn">Ver Ubicación</button>
-</a>
+                <button class="btn">Ver Ubicación</button>
+            </a>
         </div>
-    </section>
 
-    <!-- CONFIRMACION -->
-   
-    </section>
 
 </body>
+
 </html>
